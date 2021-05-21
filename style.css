@@ -1,0 +1,230 @@
+
+body {
+
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+
+    text-align: center;
+    padding-top: 60px;
+    color: #4c4e61;
+
+}
+
+header h1 {
+
+    font-weight: 200;
+    font-size: 35px;
+    margin: 0;
+
+}
+
+header .bold {
+
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+header h2 {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #a3a5ae;
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+/* **************** */
+
+#container {
+
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#containerFlex {
+
+    display: flex;
+    height: 100%;
+
+}
+
+.card {
+
+    background-color: #ffffff;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px #e7e8eb;
+    overflow: hidden;
+
+}
+
+
+.card2 {
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.card3 {
+
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.coluna {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.borderTop {
+
+    height: 4px;
+
+}
+
+.conteudoCard {
+
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+
+}
+
+.conteudoCard h3 {
+
+    margin: 0;
+    color: #4c4e61;
+
+}
+
+.conteudoCard p {
+
+    font-size: 13px;
+    color: #a3a5ae;
+
+}
+
+.conteudoCard img {
+
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    
+}
+
+/* ***** */
+
+@media screen and (max-width: 1130px){
+
+    #containerFlex {
+
+        display: block;
+    
+    }
+    
+    .card {
+
+        margin-bottom: 30px;
+
+    }
+
+    .card1 {
+
+        margin-top: 30px;
+
+    }
+
+    .card2 {
+
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    
+    }
+    
+    .card3 {
+    
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    
+    
+}
+
+@media screen and (max-width: 550px){
+
+    header h1 {
+    
+        font-size: 30px;
+    
+    }
+
+    header h2 {
+
+        width: 90%;
+    
+    }
+
+    .card {
+
+        width: 90%;
+
+    }
+
+    .centerCollum {
+
+        width: 90%;
+
+    }
+
+    .card2, .card3 {
+
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    header h1 {
+    
+        font-size: 25px;
+    
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    header h1 {
+    
+        font-size: 22px;
+    
+    }
+
+    header h2 {
+
+        font-size: 12px;
+    
+    }
+
+}
